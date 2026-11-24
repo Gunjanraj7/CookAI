@@ -1,0 +1,8 @@
+[
+  { "slug": "vegetarian", "label": "Vegetarian", "description": "No meat, poultry or seafood" },
+  { "slug": "non-vegetarian", "label": "Non-vegetarian", "description": "Contains meat, poultry, seafood or egg" },
+  { "slug": "vegan", "label": "Vegan", "description": "No animal products at all" },
+  { "slug": "healthy", "label": "Healthy", "description": "Lighter, vegetable-forward dishes" },
+  { "slug": "gluten-free", "label": "Gluten-free", "description": "No wheat, barley, rye or maida" },
+  { "slug": "high-protein", "label": "High protein", "description": "Built around dal, paneer, eggs, meat or tofu" }
+]

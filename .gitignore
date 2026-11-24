@@ -1,4 +1,16 @@
-"node_modules/" 
 node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.vite/
+
+# Local PostgreSQL instance (npm run db:local:start)
+.pgdata/
+
+# Secrets: keep the template, ignore real env files
 .env
+.env.*
+!.env.example
+
 *.log
+.DS_Store

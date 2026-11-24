@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Chana Masala",
+    "summary": "Chickpeas simmered in a tangy onion-tomato gravy with garam masala.",
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "prepMinutes": 40,
+    "servings": 4,
+    "caloriesPerServing": 310,
+    "dietaryTags": ["vegetarian", "vegan", "gluten-free", "high-protein"],
+    "ingredients": [
+      { "name": "Chickpeas", "quantity": 2, "unit": "cups (cooked)" },
+      { "name": "Onion", "quantity": 2, "unit": "medium" },
+      { "name": "Tomato", "quantity": 3, "unit": "medium" },
+      { "name": "Ginger", "quantity": 1, "unit": "inch" },
+      { "name": "Garlic", "quantity": 4, "unit": "cloves" },
+      { "name": "Green Chilli", "quantity": 1, "unit": null },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Coriander Powder", "quantity": 2, "unit": "tsp" },
+      { "name": "Garam Masala", "quantity": 1, "unit": "tsp" },
+      { "name": "Amchur", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": null, "unit": "to taste" },
+      { "name": "Coriander", "quantity": 2, "unit": "tbsp, chopped" }
+    ],
+    "instructions": [
+      "Finely chop the onions and tomatoes. Crush the ginger, garlic and green chilli into a coarse paste.",
+      "Heat the oil in a heavy pan over medium heat and add the cumin seeds. Let them sizzle for 20 seconds.",
+      "Add the onions and cook, stirring often, until deep golden, about 10 minutes.",
+      "Stir in the ginger-garlic-chilli paste and cook for a minute until the raw smell goes.",
+      "Add turmeric and coriander powder with a splash of water so the spices don't burn.",
+      "Add the tomatoes and a pinch of salt. Cook until they collapse and oil shows at the edges, 8–10 minutes.",
+      "Add the chickpeas and 1 cup of water. Mash a few chickpeas against the pan to thicken the gravy.",
+      "Simmer covered for 15 minutes, stirring now and then.",
+      "Stir in the garam masala and amchur, then taste and adjust the salt.",
+      "Finish with chopped coriander and serve with rice or roti."
+    ]
+  },
+  {
+    "name": "Aloo Gobi",
+    "summary": "Dry-spiced potato and cauliflower, cooked until just charred at the edges.",
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "prepMinutes": 35,
+    "servings": 3,
+    "caloriesPerServing": 220,
+    "dietaryTags": ["vegetarian", "vegan", "gluten-free", "healthy"],
+    "ingredients": [
+      { "name": "Cauliflower", "quantity": 1, "unit": "small head" },
+      { "name": "Potato", "quantity": 2, "unit": "medium" },
+      { "name": "Onion", "quantity": 1, "unit": "medium" },
+      { "name": "Tomato", "quantity": 1, "unit": "medium" },
+      { "name": "Ginger", "quantity": 1, "unit": "inch" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Red Chilli Powder", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Garam Masala", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Mustard Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": null, "unit": "to taste" }
+    ],
+    "instructions": [
+      "Cut the cauliflower into florets and the potatoes into 2 cm cubes. Rinse and drain well.",
+      "Heat the oil until it just smokes, then lower the heat and add the cumin.",
+      "Add the sliced onion and grated ginger and cook until soft.",
+      "Add the potatoes, turmeric and chilli powder. Toss to coat and cook covered for 5 minutes.",
+      "Add the cauliflower and salt, toss again, and cover. Cook on low heat for 10–12 minutes, stirring gently twice.",
+      "Add the chopped tomato and cook uncovered until the vegetables are tender and lightly charred.",
+      "Sprinkle garam masala, toss once more and serve hot."
+    ]
+  },
+  {
+    "name": "Masoor Dal Tadka",
+    "summary": "Red lentils cooked soft and finished with a sizzling ghee tempering.",
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "prepMinutes": 30,
+    "servings": 4,
+    "caloriesPerServing": 240,
+    "dietaryTags": ["vegetarian", "gluten-free", "high-protein", "healthy"],
+    "ingredients": [
+      { "name": "Masoor Dal", "quantity": 1, "unit": "cup" },
+      { "name": "Turmeric", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Tomato", "quantity": 1, "unit": "medium" },
+      { "name": "Ghee", "quantity": 1.5, "unit": "tbsp" },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Garlic", "quantity": 4, "unit": "cloves" },
+      { "name": "Asafoetida", "quantity": 1, "unit": "pinch" },
+      { "name": "Red Chilli Powder", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Lemon", "quantity": 0.5, "unit": null },
+      { "name": "Salt", "quantity": null, "unit": "to taste" }
+    ],
+    "instructions": [
+      "Rinse the dal until the water runs clear.",
+      "Simmer the dal with 3 cups of water, turmeric and chopped tomato until completely soft, about 20 minutes.",
+      "Whisk the dal smooth and season with salt. Add hot water if it's too thick.",
+      "For the tadka, heat the ghee in a small pan and add the cumin.",
+      "When the cumin crackles, add sliced garlic and fry until golden.",
+      "Take the pan off the heat and stir in the asafoetida and chilli powder.",
+      "Pour the tadka over the dal, squeeze in the lemon and serve."
+    ]
+  },
+  {
+    "name": "Paneer Bhurji",
+    "summary": "Crumbled paneer scrambled with onion, tomato and green chilli.",
+    "cuisine": "Indian",
+    "difficulty": "easy",
+    "prepMinutes": 20,
+    "servings": 2,
+    "caloriesPerServing": 360,
+    "dietaryTags": ["vegetarian", "gluten-free", "high-protein"],
+    "ingredients": [
+      { "name": "Paneer", "quantity": 200, "unit": "g" },
+      { "name": "Onion", "quantity": 1, "unit": "medium" },
+      { "name": "Tomato", "quantity": 1, "unit": "medium" },
+      { "name": "Capsicum", "quantity": 0.5, "unit": null },
+      { "name": "Green Chilli", "quantity": 1, "unit": null },
+      { "name": "Turmeric", "quantity": 0.25, "unit": "tsp" },
+      { "name": "Garam Masala", "quantity": 0.5, "unit": "tsp" },
+      { "name": "Butter", "quantity": 1, "unit": "tbsp" },
+      { "name": "Coriander", "quantity": 1, "unit": "tbsp, chopped" },
+      { "name": "Salt", "quantity": null, "unit": "to taste" }
+    ],
+    "instructions": [
+      "Crumble the paneer with your fingers and set aside.",
+      "Melt the butter in a pan and cook the chopped onion and green chilli until soft.",
+      "Add the capsicum and cook for 2 minutes.",
+      "Add the tomato, turmeric and salt, and cook until the tomato breaks down.",
+      "Fold in the paneer and garam masala and cook for 2–3 minutes, without letting it dry out.",
+      "Finish with coriander and serve with toast or roti."
+    ]
+  },
+  {
+    "name": "Vegetable Upma",
+    "summary": "Savoury semolina porridge with mustard seeds, curry leaves and vegetables.",
+    "cuisine": "South Indian",
+    "difficulty": "easy",
+    "prepMinutes": 25,
+    "servings": 3,
+    "caloriesPerServing": 280,
+    "dietaryTags": ["vegetarian", "vegan"],
+    "ingredients": [
+      { "name": "Semolina", "quantity": 1, "unit": "cup" },
+      { "name": "Onion", "quantity": 1, "unit": "medium" },
+      { "name": "Carrot", "quantity": 1, "unit": "small" },
+      { "name": "Peas", "quantity": 0.25, "unit": "cup" },
+      { "name": "Mustard Seeds", "quantity": 1, "unit": "tsp" },
+      { "name": "Urad Dal", "quantity": 1, "unit": "tsp" },
+      { "name": "Curry Leaves", "quantity": 10, "unit": "leaves" },
+      { "name": "Green Chilli", "quantity": 1, "unit": null },
+      { "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Salt", "quantity": null, "unit": "to taste" }
+    ],
+    "instructions": [
+      "Dry-roast the semolina in a pan over low heat until fragrant, then set it aside.",
+      "Heat the oil and add the mustard seeds. When they pop, add the urad dal and fry until golden.",
+      "Add the curry leaves, green chilli and onion, and cook until the onion is soft.",
+      "Add the diced carrot and peas and cook for 3 minutes.",
+      "Pour in 2.5 cups of water with salt and bring to a boil.",
+      "Lower the heat and pour in the semolina slowly, stirring all the time so no lumps form.",
+      "Cover and cook on low heat for 2 minutes, then fluff and serve."
+    ]
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "summary": "Crisp vegetables tossed in a soy-ginger sauce, served over rice.",
+    "cuisine": "Indo-Chinese",
+    "difficulty": "easy",
+    "prepMinutes": 20,
+    "servings": 2,
+    "caloriesPerServing": 320,
+    "dietaryTags": ["vegetarian", "vegan", "healthy"],
+    "ingredients": [
+      { "name": "Capsicum", "quantity": 1, "unit": null },
+      { "name": "Cabbage", "quantity": 1, "unit": "cup, shredded" },
+      { "name": "Carrot", "quantity": 1, "unit": null },
+      { "name": "Broccoli", "quantity": 1, "unit": "cup" },
+      { "name": "Onion", "quantity": 1, "unit": null },
+      { "name": "Garlic", "quantity": 3, "unit": "cloves" },
+      { "name": "Ginger", "quantity": 1, "unit": "tbsp, grated" },
+      { "name": "Soy Sauce", "quantity": 2, "unit": "tbsp" },
+      { "name": "Sesame Oil", "quantity": 1, "unit": "tbsp" },
+      { "name": "Rice", "quantity": 1, "unit": "cup (cooked)" }
+    ],
+    "instructions": [
+      "Cut all the vegetables into thin, even strips so they cook at the same speed.",
+      "Heat the sesame oil in a wok over high heat.",
+      "Add the garlic and ginger and stir for 30 seconds.",
+      "Add the carrot and broccoli first, then the capsicum, onion and cabbage, stir-frying for 4–5 minutes.",
+      "Pour in the soy sauce and toss until everything is glossy but still crisp.",
+      "Serve straight away over the rice."
+    ]
+  },
+  {
+    "name": "Chicken Stir Fry",
+    "summary": "Quick-seared chicken with peppers and zucchini in a savoury sauce.",
+    "cuisine": "Indo-Chinese",
+    "difficulty": "medium",
+    "prepMinutes": 25,
+    "servings": 2,
+    "caloriesPerServing": 550,
+    "dietaryTags": ["non-vegetarian", "high-protein"],
+    "ingredients": [
+      { "name": "Chicken", "quantity": 300, "unit": "g" },
+      { "name": "Capsicum", "quantity": 2, "unit": null },
+      { "name": "Carrot", "quantity": 1, "unit": null },
+      { "name": "Onion", "quantity": 1, "unit": null },
+      { "name": "Zucchini", "quantity": 1, "unit": null },
+      { "name": "Broccoli", "quantity": 1, "unit": "cup" },
+      { "name": "Soy Sauce", "quantity": 3, "unit": "tbsp" },
+      { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+      { "name": "Corn Flour", "quantity": 1, "unit": "tsp" },
+      { "name": "Vegetable Oil", "quantity": 2, "unit": "tbsp" }
+    ],
+    "instructions": [
+      "Slice the chicken thinly and toss it with 1 tbsp soy sauce and the corn flour.",
+      "Heat half the oil in a wok until very hot and sear the chicken in one layer until browned. Remove.",
+      "Add the remaining oil, then the garlic, carrot and broccoli. Stir-fry for 2 minutes.",
+      "Add the capsicum, onion and zucchini and stir-fry for 2 more minutes.",
+      "Return the chicken, add the remaining soy sauce and toss until the chicken is cooked through.",
+      "Serve hot with rice or noodles."
+    ]
+  },
+  {
+    "name": "Quinoa Buddha Bowl",
+    "summary": "Quinoa topped with roasted sweet potato, chickpeas, spinach and avocado.",
+    "cuisine": "Contemporary",
+    "difficulty": "easy",
+    "prepMinutes": 35,
+    "servings": 2,
+    "caloriesPerServing": 480,
+    "dietaryTags": ["vegetarian", "vegan", "healthy", "gluten-free"],
+    "ingredients": [
+      { "name": "Quinoa", "quantity": 1, "unit": "cup" },
+      { "name": "Sweet Potato", "quantity": 1, "unit": "large" },
+      { "name": "Chickpeas", "quantity": 1, "unit": "cup (cooked)" },
+      { "name": "Avocado", "quantity": 1, "unit": null },
+      { "name": "Carrot", "quantity": 1, "unit": null },
+      { "name": "Spinach", "quantity": 2, "unit": "cups" },
+      { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
+      { "name": "Lemon", "quantity": 1, "unit": null },
+      { "name": "Salt", "quantity": null, "unit": "to taste" }
+    ],
+    "instructions": [
+      "Heat the oven to 200°C.",
+      "Cube the sweet potato, toss with half the oil and salt, and roast for 25 minutes.",
+      "Rinse the quinoa and simmer it in 2 cups of water for 15 minutes, then let it steam off the heat.",
+      "Toss the chickpeas in a hot pan until lightly crisp.",
+      "Whisk the remaining oil with lemon juice and a pinch of salt for the dressing.",
+      "Fill bowls with quinoa, spinach, grated carrot, sweet potato, chickpeas and sliced avocado, then dress."
+    ]
+  },
+  {
+    "name": "Mushroom Risotto",
+    "summary": "Creamy rice with mushrooms, peas and wilted spinach.",
+    "cuisine": "Italian",
+    "difficulty": "medium",
+    "prepMinutes": 45,
+    "servings": 4,
+    "caloriesPerServing": 480,
+    "dietaryTags": ["vegetarian", "gluten-free"],
+    "ingredients": [
+      { "name": "Rice", "quantity": 1.5, "unit": "cups (arborio)" },
+      { "name": "Mushroom", "quantity": 250, "unit": "g" },
+      { "name": "Onion", "quantity": 1, "unit": null },
+      { "name": "Garlic", "quantity": 2, "unit": "cloves" },
+      { "name": "Vegetable Stock", "quantity": 5, "unit": "cups, hot" },
+      { "name": "Butter", "quantity": 2, "unit": "tbsp" },
+      { "name": "Cheese", "quantity": 0.5, "unit": "cup, grated" },
+      { "name": "Peas", "quantity": 0.5, "unit": "cup" },
+      { "name": "Spinach", "quantity": 2, "unit": "cups" }
+    ],
+    "instructions": [
+      "Brown the sliced mushrooms in half the butter and set them aside.",
+      "Soften the onion and garlic in the remaining butter.",
+      "Add the rice and stir for 2 minutes until the edges look translucent.",
+      "Add the stock one ladle at a time, stirring until each addition is absorbed, for about 20 minutes.",
+      "Stir in the peas, spinach and mushrooms when the rice is nearly tender.",
+      "Take off the heat, beat in the cheese and rest for 2 minutes before serving."
+    ]
+  },
+  {
+    "name": "Beef Tacos",
+    "summary": "Spiced ground beef in warm tortillas with fresh toppings.",
+    "cuisine": "Mexican",
+    "difficulty": "medium",
+    "prepMinutes": 35,
+    "servings": 4,
+    "caloriesPerServing": 620,
+    "dietaryTags": ["non-vegetarian", "high-protein"],
+    "ingredients": [
+      { "name": "Beef", "quantity": 500, "unit": "g, minced" },
+      { "name": "Onion", "quantity": 1, "unit": null },
+      { "name": "Cumin", "quantity": 1, "unit": "tsp" },
+      { "name": "Paprika", "quantity": 1, "unit": "tsp" },
+      { "name": "Avocado", "quantity": 1, "unit": null },
+      { "name": "Lettuce", "quantity": 1, "unit": "cup, shredded" },
+      { "name": "Tomato", "quantity": 2, "unit": null },
+      { "name": "Cheese", "quantity": 1, "unit": "cup, grated" },
+      { "name": "Corn", "quantity": 0.5, "unit": "cup" }
+    ],
+    "instructions": [
+      "Brown the beef with the chopped onion, breaking it up as it cooks.",
+      "Add the cumin, paprika, salt and a splash of water. Simmer until thick.",
+      "Warm the tortillas in a dry pan.",
+      "Dice the tomato and avocado and shred the lettuce.",
+      "Fill each tortilla with beef and top with the vegetables, corn and cheese."
+    ]
+  }
+]

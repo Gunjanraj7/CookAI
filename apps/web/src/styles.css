@@ -1,0 +1,128 @@
+/* "standard" = weight + width + optical-size axes (the display style narrows the width). */
+@import "@fontsource-variable/bricolage-grotesque/standard.css";
+@import "tailwindcss";
+
+/*
+ * Palette: a steel masala dabba and what goes in it.
+ * steel (background), slate ink, haldi (turmeric), mirch (chilli), kadi (curry leaf), dalchini (cinnamon), malai (cream).
+ */
+:root {
+  --c-bg: #edf0ee;
+  --c-surface: #f8faf9;
+  --c-sunken: #e1e6e4;
+  --c-line: #c6cfcc;
+  --c-ink: #1c2a2e;
+  --c-ink-soft: #52626a;
+  --c-haldi: #e2a010;
+  --c-haldi-ink: #3a2a00;
+  --c-mirch: #b23a2b;
+  --c-kadi: #3f6e3a;
+  --c-dalchini: #7a5230;
+  --c-malai: #b8975a;
+  --c-tray: #b9c3c0;
+  --c-tray-rim: #98a5a1;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg: #121a1c;
+    --c-surface: #1a2427;
+    --c-sunken: #0e1517;
+    --c-line: #2e3d41;
+    --c-ink: #e6ecea;
+    --c-ink-soft: #9aabb0;
+    --c-haldi: #f0b43a;
+    --c-haldi-ink: #2a1e00;
+    --c-mirch: #e0614f;
+    --c-kadi: #7fae73;
+    --c-dalchini: #c08a5c;
+    --c-malai: #c7a86c;
+    --c-tray: #3a4a4e;
+    --c-tray-rim: #4c5e62;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --font-sans: "Bricolage Grotesque Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-sunken: var(--c-sunken);
+  --color-line: var(--c-line);
+  --color-ink: var(--c-ink);
+  --color-ink-soft: var(--c-ink-soft);
+  --color-haldi: var(--c-haldi);
+  --color-haldi-ink: var(--c-haldi-ink);
+  --color-mirch: var(--c-mirch);
+  --color-kadi: var(--c-kadi);
+  --color-dalchini: var(--c-dalchini);
+  --color-tray: var(--c-tray);
+  --color-tray-rim: var(--c-tray-rim);
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background: var(--c-bg);
+    color: var(--c-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    min-height: 100dvh;
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+  h1,
+  h2,
+  h3 {
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  :focus-visible {
+    outline: 3px solid var(--c-haldi);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--c-haldi);
+    color: var(--c-haldi-ink);
+  }
+}
+
+/* Display type: Bricolage's narrow, heavy cut. */
+@utility font-display {
+  font-weight: 760;
+  font-stretch: 80%;
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
+}
+
+/* A tin dropping into the dabba. Only motion on the page, and only in response to a pick. */
+@keyframes tin-drop {
+  from {
+    transform: translate(-50%, -50%) scale(0.4);
+    opacity: 0;
+  }
+  70% {
+    transform: translate(-50%, -50%) scale(1.06);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

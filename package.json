@@ -1,15 +1,36 @@
 {
-  "name": "cookai-backend",
-  "version": "1.0.0",
-  "description": "Backend server for CookAI",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "name": "cookai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "CookAI: find or generate recipes from the ingredients you already have.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22"
   },
-  "dependencies": {
-    "@google/genai": "^0.10.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongoose": "^8.13.2"
+  "scripts": {
+    "dev": "concurrently -n api,web -c blue,magenta \"npm:dev:api\" \"npm:dev:web\"",
+    "dev:api": "npm run dev -w @cookai/api",
+    "dev:web": "npm run dev -w @cookai/web",
+    "build": "npm run build -w @cookai/web",
+    "start": "npm run start -w @cookai/api",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "db:create": "npm run db:create -w @cookai/api",
+    "db:generate": "npm run db:generate -w @cookai/api",
+    "db:migrate": "npm run db:migrate -w @cookai/api",
+    "db:seed": "npm run db:seed -w @cookai/api",
+    "db:setup": "npm run db:create && npm run db:migrate && npm run db:seed",
+    "db:local:start": "node scripts/local-postgres.mjs start",
+    "db:local:stop": "node scripts/local-postgres.mjs stop",
+    "db:local:status": "node scripts/local-postgres.mjs status",
+    "db:studio": "npm run db:studio -w @cookai/api"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7",
+    "typescript": "^7.0.2"
   }
 }

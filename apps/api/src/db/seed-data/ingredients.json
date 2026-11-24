@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "vegetables",
+    "label": "Vegetables",
+    "items": ["Tomato", "Onion", "Garlic", "Potato", "Carrot", "Ginger", "Coriander", "Zucchini", "Bell Pepper", "Spinach", "Cucumber", "Lettuce", "Avocado", "Broccoli", "Peas", "Corn", "Brinjal", "Cauliflower", "Radish", "Capsicum", "Cabbage", "Green Chilli", "Mushroom", "Curry Leaves", "Beetroot", "Turnip", "Pumpkin", "Sweet Potato", "Okra", "Green Beans", "Leeks", "Spring Onion", "Fenugreek Leaves", "Kale", "Celery", "Asparagus", "Bottle Gourd", "Bitter Gourd", "Drumstick"]
+  },
+  {
+    "slug": "fruits",
+    "label": "Fruits",
+    "items": ["Apple", "Banana", "Mango", "Pineapple", "Orange", "Grapes", "Pomegranate", "Papaya", "Pear", "Strawberry", "Blueberry", "Coconut", "Guava", "Watermelon", "Kiwi", "Lemon", "Lime", "Raw Mango"]
+  },
+  {
+    "slug": "grains",
+    "label": "Grains & flours",
+    "items": ["Rice", "Basmati Rice", "Pasta", "Bread", "Wheat Flour", "Maida", "Semolina", "Poha", "Oats", "Millets", "Barley", "Quinoa", "Cornmeal", "Noodles", "Couscous", "Vermicelli", "Besan", "Rice Flour", "Corn Flour"]
+  },
+  {
+    "slug": "dairy",
+    "label": "Dairy & eggs",
+    "items": ["Milk", "Cheese", "Butter", "Curd", "Cream", "Paneer", "Ghee", "Eggs", "Khoya"]
+  },
+  {
+    "slug": "protein",
+    "label": "Meat & seafood",
+    "items": ["Chicken", "Mutton", "Fish", "Prawns", "Crab", "Beef", "Pork", "Turkey", "Duck", "Bacon", "Sausage"]
+  },
+  {
+    "slug": "pulses",
+    "label": "Pulses & beans",
+    "items": ["Kidney Beans", "Urad Dal", "Chana Dal", "Moong Dal", "Toor Dal", "Masoor Dal", "Black Beans", "Chickpeas", "Green Gram", "Soybeans", "Peanuts", "Tofu", "Tempeh", "Soya Chunks"]
+  },
+  {
+    "slug": "spices",
+    "label": "Spices",
+    "items": ["Turmeric", "Red Chilli Powder", "Cumin", "Coriander Powder", "Garam Masala", "Black Pepper", "Cardamom", "Cinnamon", "Cloves", "Nutmeg", "Mustard Seeds", "Asafoetida", "Fenugreek Seeds", "Curry Powder", "Paprika", "Saffron", "Bay Leaf", "Fennel Seeds", "Amchur", "Kasuri Methi", "Salt", "Sugar", "Jaggery"]
+  },
+  {
+    "slug": "pantry",
+    "label": "Sauces & pantry",
+    "items": ["Vinegar", "Soy Sauce", "Tomato Paste", "Ketchup", "Mayonnaise", "Honey", "Tamarind", "Pickle", "Green Chutney", "Coconut Milk", "Vegetable Stock", "Yeast", "Baking Soda", "Baking Powder", "Bread Crumbs"]
+  },
+  {
+    "slug": "oils",
+    "label": "Oils & fats",
+    "items": ["Olive Oil", "Vegetable Oil", "Sunflower Oil", "Sesame Oil", "Mustard Oil", "Coconut Oil", "Groundnut Oil"]
+  },
+  {
+    "slug": "nuts-seeds",
+    "label": "Nuts & seeds",
+    "items": ["Almonds", "Cashews", "Walnuts", "Raisins", "Pine Nuts", "Poppy Seeds", "Chia Seeds", "Flax Seeds", "Sesame Seeds"]
+  }
+]
